@@ -9,13 +9,18 @@ public class Materia {
     private List <Aluno> alunos;
     private List <Mensagem> mensagens;
     private String nome;
+    private int id;
 
-    public Materia(String nome) {
+    public Materia(String nome, int id) {
         this.nome = nome;
+        this.id = id;
         this.alunos = new ArrayList<>();
         this.mensagens = new ArrayList<>();
     }
-    
+
+    public int getId() {
+        return this.id;
+    }
 
     public String getNome() {
         return nome;
@@ -36,5 +41,8 @@ public class Materia {
     }
     public void updateAluno(Aluno a) {
         new AlunoDao().updateAluno(a);
+    }
+    public void setAlunos(List<Aluno> a) {
+        this.alunos = a;
     }
 }

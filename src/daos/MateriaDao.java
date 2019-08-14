@@ -44,12 +44,14 @@ public class MateriaDao {
             return m;
         }
     }
-    public List<Aluno> getAlunos(String query) {
+    public List<Aluno> getAlunos(int id) {
         PreparedStatement ps;
         ResultSet rs;
+        String query = "select * from aluno, aluno_materia WHERE materia_aluno.id = ? AND materia_aluno.usuario = aluno.usuario";
         List<Aluno> alunos = new ArrayList<>();
         try {
             ps = con.prepareStatement(query);
+            ps.setInt(1, id);
             rs = ps.executeQuery();
             while(rs.next()) {
                 alunos.add(
