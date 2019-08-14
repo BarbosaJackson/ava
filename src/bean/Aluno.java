@@ -6,12 +6,27 @@ public class Aluno {
     private String instituicao;
     private String usuario;
     private String senha;
-
-        public Aluno(String nome, String usuario, String senha) {
+    private int e_moderador;
+    public Aluno(String nome, String usuario, int e_moderador, int pontuacao, String instituicao) {
+        this.nome = nome;
+        this.usuario = usuario;
+        this.pontuacao = pontuacao;
+        this.e_moderador = e_moderador;
+    }
+    public Aluno(String nome, String usuario, String senha, int e_moderador, int pontuacao, String instituicao) {
+        this.nome = nome;
+        this.usuario = usuario;
+        this.senha = senha;
+        this.pontuacao = pontuacao;
+        this.e_moderador = e_moderador;
+        this.instituicao = instituicao;
+    }
+    public Aluno(String nome, String usuario, String senha, int e_moderador) {
         this.nome = nome;
         this.usuario = usuario;
         this.senha = senha;
         this.pontuacao = 0;
+        this.e_moderador = e_moderador;
     }
 
     public String getUsuario() {
@@ -53,5 +68,13 @@ public class Aluno {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public int getE_moderador() {
+        return e_moderador;
+    }
+
+    public void setE_moderador(int e_moderador) {
+        this.e_moderador = e_moderador;
     }
 }

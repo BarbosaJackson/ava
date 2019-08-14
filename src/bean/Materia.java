@@ -5,14 +5,12 @@ import java.util.List;
 
 public class Materia {
     private List <Aluno> alunos;
-    private List <Moderador> moderadores;
     private List <Mensagem> mensagens;
     private String nome;
 
     public Materia(String nome) {
         this.nome = nome;
         this.alunos = new ArrayList<>();
-        this.moderadores = new ArrayList<>();
         this.mensagens = new ArrayList<>();
     }
 

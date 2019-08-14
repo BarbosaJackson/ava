@@ -11,22 +11,26 @@ public class Conexao {
         private static String user, pass, db, host, url;
 
         public Conexao() {
-            user = "kcajava";
-            pass = "senhaminiava";
-            db = "miniava";
-            host = "";
+            user = "5pummsW8B0";
+            pass = "VwHMsLxk3t";
+            db = "5pummsW8B0";
+            host = "remotemysql.com:3306/";
             url = "jdbc:mysql://" + host + db;
+            try {
+                Class.forName("com.mysql.jdbc.Driver");
+                con = DriverManager.getConnection(url, user, pass);
+            } catch (SQLException ex) {
+                System.out.println(ex.getMessage());
+                JOptionPane.showMessageDialog(null,"Erro ao conectar o banco");
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
         }
 
         public Connection getCon() {
-            if(con == null) {
-                try {
-                    con = DriverManager.getConnection(url, user, pass);
-                } catch (SQLException ex) {
-                    JOptionPane.showMessageDialog(null,"Erro ao conectar o banco");
-                }
-            }
             return con;
         }
+    public static void main(String[] args) {
+        new Conexao().getCon();
     }
 }
