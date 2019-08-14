@@ -7,7 +7,7 @@ public class Aluno {
     private String usuario;
     private String senha;
 
-    public Aluno(String nome, String usuario, String senha) {
+        public Aluno(String nome, String usuario, String senha) {
         this.nome = nome;
         this.usuario = usuario;
         this.senha = senha;

@@ -8,6 +8,7 @@ public class Materia {
     private List <Moderador> moderadores;
     private List <Mensagem> mensagens;
     private String nome;
+
     public Materia(String nome) {
         this.nome = nome;
         this.alunos = new ArrayList<>();
