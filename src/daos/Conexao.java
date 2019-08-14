@@ -30,7 +30,4 @@ public class Conexao {
         public Connection getCon() {
             return con;
         }
-    public static void main(String[] args) {
-        new Conexao().getCon();
-    }
 }

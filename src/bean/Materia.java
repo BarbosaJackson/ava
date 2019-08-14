@@ -1,5 +1,7 @@
 package bean;
 
+import daos.AlunoDao;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +15,7 @@ public class Materia {
         this.alunos = new ArrayList<>();
         this.mensagens = new ArrayList<>();
     }
+    
 
     public String getNome() {
         return nome;
@@ -23,11 +26,15 @@ public class Materia {
     }
 
     public void addAluno(Aluno a){
-
+        new AlunoDao().addAluno(a);
     }
-    public List<Aluno> getAlunos() {
-        List<Aluno> aluno = new ArrayList<>();
-
-        return aluno;
+    public List<Aluno> getAllAlunos() {
+        return new AlunoDao().getAlunos("select * from aluno");
+    }
+    public void deleteAluno(String usuario) {
+        new AlunoDao().deleteAluno(usuario);
+    }
+    public void updateAluno(Aluno a) {
+        new AlunoDao().updateAluno(a);
     }
 }
