@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="35c35085-9eb2-476f-9b4c-72f2d0ec61a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Materia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/Mensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Mensagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daos/AlunoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/AlunoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daos/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/Conexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daos/bd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/bd.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

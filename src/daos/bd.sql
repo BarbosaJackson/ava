@@ -21,8 +21,8 @@ create table materia_aluno (
 	id int,
 	usuario varchar(200),
 	primary key(id, usuario),
-	foreign key id references materia(id),
-	foreign key usuario references aluno(usuario)
+	foreign key (id) references materia(id),
+	foreign key (usuario) references aluno(usuario)
 );
 
 create table mensagem (
@@ -30,6 +30,7 @@ create table mensagem (
 	destinatario varchar(200),
 	assunto varchar(200),
 	conteudo varchar(200),
-	primary key(remetente, destinatario)
+	id int primary key,
+	foreign key (id) references materia_aluno(id)
 );
 

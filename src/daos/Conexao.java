@@ -11,9 +11,9 @@ public class Conexao {
         private static String user, pass, db, host, url;
 
         public Conexao() {
-            user = "";
-            pass = "";
-            db = "";
+            user = "kcajava";
+            pass = "senhaminiava";
+            db = "miniava";
             host = "";
             url = "jdbc:mysql://" + host + db;
         }
