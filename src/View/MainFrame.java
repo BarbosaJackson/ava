@@ -1,6 +1,5 @@
 package View;
 
-import bean.Aluno;
 import bean.Mensagem;
 
 import javax.swing.*;

@@ -11,10 +11,10 @@ public class Conexao {
         private static String user, pass, db, host, url;
 
         public Conexao() {
-            user = "5pummsW8B0";
-            pass = "VwHMsLxk3t";
-            db = "5pummsW8B0";
-            host = "remotemysql.com:3306/";
+            user = "";
+            pass = "";
+            db = "miniava";
+            host = "localhost:3306/";
             url = "jdbc:mysql://" + host + db;
             try {
                 Class.forName("com.mysql.jdbc.Driver");

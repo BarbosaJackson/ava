@@ -3,7 +3,7 @@ create database miniava;
 use miniava;
 
 create table aluno (
-	pontuaca int,
+	pontuacao int,
 	nome varchar(200),
 	instituicao varchar(200),
 	usuario varchar(200) primary key,

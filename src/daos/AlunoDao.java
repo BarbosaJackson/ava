@@ -33,8 +33,10 @@ public class AlunoDao {
             }
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, "erro ao conectar o banco de dados");
+            ex.printStackTrace();
+        } finally {
+            return a;
         }
-        return a;
     }
     public void addAluno(Aluno a) {
         PreparedStatement ps;
