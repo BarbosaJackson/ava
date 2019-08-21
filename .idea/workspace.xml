@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35c35085-9eb2-476f-9b4c-72f2d0ec61a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AVA/View/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AVA/View/UTILS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AVA/View/ViewAPI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/JButtonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/UTILS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/ViewAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/View/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/UTILS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/UTILS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/ViewAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/ViewAPI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/bean/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/bean/Aluno.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/bean/Materia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/bean/Materia.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/bean/Mensagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/bean/Mensagem.class" afterDir="false" />
@@ -23,11 +18,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/Conexao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/Conexao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/MateriaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/MateriaDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/MensagemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/MensagemDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/bd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/bd.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daos/AlunoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/AlunoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/daos/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/Conexao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daos/bd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/bd.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +42,50 @@
     <expand />
     <select />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/daos/Conexao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/daos/bd.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -59,8 +96,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/daos/Conexao.java" />
+        <option value="$PROJECT_DIR$/src/View/Login.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2940" />
+    <option name="y" value="7" />
+    <option name="width" value="1362" />
+    <option name="height" value="728" />
+  </component>
   <component name="ProjectId" id="1PQ6nLF1nH54ZHrxH3sop0w28UA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -68,7 +157,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565793134114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566393638127" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -94,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Login">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -116,9 +205,10 @@
       </method>
     </configuration>
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="View.Login" />
       <module name="AVA" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="View.*" />
@@ -144,14 +234,12 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -175,9 +263,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Login" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Conexao" />
+        <item itemvalue="Application.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -196,8 +284,47 @@
       <workItem from="1566179834228" duration="271000" />
       <workItem from="1566189582114" duration="1128000" />
       <workItem from="1566341279905" duration="8599000" />
+      <workItem from="1566386531076" duration="1532000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1532000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2557" y="-1" width="2566" height="1060" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980111" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32976446" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -208,12 +335,66 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/daos/bd.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daos/Conexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -45,8 +45,8 @@ public class Login extends JFrame {
             // new RegisterWindow();
         });
         loginJB.addActionListener((ActionEvent ae) -> {
-            String query = "select * from aluno where usuario = " + loginTF.getText() + " and senha = "
-                    + new String(passwordField.getPassword());
+            String query = "select * from aluno where usuario = '" + loginTF.getText() + "' and senha = '"
+                    + new String(passwordField.getPassword()) + "'";
             List<Aluno> alu = new AlunoDao().getAlunos(query);
             if(alu.isEmpty()) {
                 JOptionPane.showMessageDialog(this, "Usuário ou senha incorretos, favor, verifique");
