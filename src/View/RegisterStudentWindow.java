@@ -43,7 +43,7 @@ public class RegisterStudentWindow extends JFrame {
         nomeTF       .setBounds(150, 160, 100, 20);
         instituicaoTF.setBounds(150, 190, 100, 20);
         e_modJCB     .setBounds(150, 220, 100, 20);
-        registerJB   .setBounds(75, 250, 100, 50);
+        registerJB   .setBounds(75, 250, 130, 50);
     }
     private void actions() {
         exit.addActionListener((ActionEvent ae) -> {

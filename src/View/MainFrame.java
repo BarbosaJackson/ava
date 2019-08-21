@@ -1,5 +1,6 @@
 package View;
 
+import bean.Aluno;
 import bean.Materia;
 import bean.Mensagem;
 import daos.MateriaDao;
@@ -16,8 +17,10 @@ public class MainFrame extends JFrame{
     private JLabel posRaking, forumName, className;
     private JButton criarTurma, addTurma, criarTopico, enviarMensagem, exit, softName;
     private ArrayList<JButton> forumPosts;
-    public MainFrame() {
+    private Aluno usuario;
+    public MainFrame(Aluno usuario) {
         screen = getContentPane();
+        this.usuario = usuario;
         leftPanel = new JPanel(null);
         forumPanel = new JPanel(null);
         exit = new JButton("Sair");
@@ -45,6 +48,7 @@ public class MainFrame extends JFrame{
         screen.add(forumName);
         screen.add(leftPanel);
         screen.add(forumPanel);
+        screen.add(exit);
     }
 
     private void position() {
@@ -56,6 +60,7 @@ public class MainFrame extends JFrame{
         criarTurma.setBounds(10, 170, 180, 50);
         enviarMensagem.setBounds(10, 240, 180, 50);
         forumPanel.setBounds(210, 120, 380, 350);
+        exit.setBounds(500, 20, 80, 30);
     }
 
     private void actions() {
@@ -64,7 +69,7 @@ public class MainFrame extends JFrame{
         });
         criarTurma.addActionListener((ActionEvent ae) -> {
             String nomeTurma = JOptionPane.showInputDialog("Digite o nome da turma: ");
-            new MateriaDao().addMateria(new Materia(nomeTurma, ));
+            new MateriaDao().addMateria(new Materia(nomeTurma), usuario.getUsuario());
         });
     }
 

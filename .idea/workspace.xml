@@ -4,28 +4,14 @@
     <list default="true" id="35c35085-9eb2-476f-9b4c-72f2d0ec61a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/JButtonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AVA/META-INF/AVA.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/View/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/MainFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/View/RegisterStudentWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/RegisterStudentWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/UTILS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/UTILS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/View/ViewAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/View/ViewAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/bean/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/bean/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/bean/Materia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/bean/Materia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/bean/Mensagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/bean/Mensagem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/AlunoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/AlunoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/Conexao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/Conexao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/MateriaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/MateriaDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/MensagemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/MensagemDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AVA/daos/bd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AVA/daos/bd.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Materia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daos/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/Conexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/RegisterStudentWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/RegisterStudentWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/daos/MateriaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/MateriaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daos/bd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/bd.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +43,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="650" />
-    <option name="y" value="25" />
-    <option name="width" value="790" />
-    <option name="height" value="875" />
-  </component>
   <component name="ProjectId" id="1PQ6nLF1nH54ZHrxH3sop0w28UA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -82,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -208,6 +188,8 @@
       <workItem from="1566386531076" duration="1532000" />
       <workItem from="1566395572685" duration="2690000" />
       <workItem from="1566400405655" duration="3969000" />
+      <workItem from="1566410239983" duration="334000" />
+      <workItem from="1566410594080" duration="1076000" />
     </task>
     <servers />
   </component>
@@ -226,93 +208,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>AVA</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>mysql:mysql-connector-java:5.1.40</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -28,7 +28,7 @@ public class MateriaDao {
             ResultSet rs = ps.executeQuery();
             rs.next();
             int id_mat = rs.getInt("id");
-            query = "insert into materia_aluno(nome, id) values (?, ?)";
+            query = "insert into materia_aluno(usuario, id) values (?, ?)";
             ps = con.prepareStatement(query);
             ps.setString(1, userName);
             ps.setInt(2, id_mat);

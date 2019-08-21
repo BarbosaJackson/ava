@@ -52,7 +52,7 @@ public class Login extends JFrame {
             if(alu.isEmpty()) {
                 JOptionPane.showMessageDialog(this, "Usuário ou senha incorretos, favor, verifique");
             } else {
-                 new MainFrame().initScreen();
+                 new MainFrame(alu.get(0)).initScreen();
                 dispose();
             }
         });
