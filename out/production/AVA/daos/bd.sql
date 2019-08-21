@@ -13,7 +13,7 @@ create table aluno (
 
 create table materia (
 	nome varchar(200),
-	id int primary key
+	id int primary key auto_increment
 );
 
 create table materia_aluno (

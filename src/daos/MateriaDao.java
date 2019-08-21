@@ -4,6 +4,7 @@ import bean.Aluno;
 import bean.Materia;
 
 import javax.swing.*;
+import javax.xml.transform.Result;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -16,15 +17,25 @@ public class MateriaDao {
     public MateriaDao() {
         con = new Conexao().getCon();
     }
-    public void addMateria(Materia m) {
+    public void addMateria(Materia m, String userName) {
         String query = "insert into materia(nome) values (?)";
         PreparedStatement ps;
         try {
             ps = con.prepareStatement(query);
             ps.setString(1, m.getNome());
             ps.execute();
+            ps = con.prepareStatement("select  MAX(ID) as id from materia");
+            ResultSet rs = ps.executeQuery();
+            rs.next();
+            int id_mat = rs.getInt("id");
+            query = "insert into materia_aluno(nome, id) values (?, ?)";
+            ps = con.prepareStatement(query);
+            ps.setString(1, userName);
+            ps.setInt(2, id_mat);
+            ps.execute();
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, "erro ao conectar o banco de dados");
+            ex.printStackTrace();
         }
     }
     public List<Materia> getAllMaterias() {

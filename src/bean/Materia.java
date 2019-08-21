@@ -11,6 +11,12 @@ public class Materia {
     private String nome;
     private int id;
 
+    public Materia(String nome) {
+        this.nome = nome;
+        this.alunos = new ArrayList<>();
+        this.mensagens = new ArrayList<>();
+    }
+
     public Materia(String nome, int id) {
         this.nome = nome;
         this.id = id;
