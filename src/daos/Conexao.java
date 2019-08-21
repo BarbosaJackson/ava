@@ -11,7 +11,7 @@ public class Conexao {
         private static String user, pass, db, host, url;
 
         public Conexao() {
-            user = "root";
+            user = "kcaj";
             pass = "";
             db = "miniava";
             host = "localhost:3306/";

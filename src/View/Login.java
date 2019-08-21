@@ -42,7 +42,8 @@ public class Login extends JFrame {
             dispose();
         });
         registerJB.addActionListener((ActionEvent ae) -> {
-            // new RegisterWindow();
+            new RegisterStudentWindow().initScreen();
+            dispose();
         });
         loginJB.addActionListener((ActionEvent ae) -> {
             String query = "select * from aluno where usuario = '" + loginTF.getText() + "' and senha = '"

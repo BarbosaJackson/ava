@@ -12,7 +12,21 @@ public class Aluno {
         this.usuario = usuario;
         this.pontuacao = pontuacao;
         this.e_moderador = e_moderador;
+        this.instituicao = instituicao;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "pontuacao=" + pontuacao +
+                ", nome='" + nome + '\'' +
+                ", instituicao='" + instituicao + '\'' +
+                ", usuario='" + usuario + '\'' +
+                ", senha='" + senha + '\'' +
+                ", e_moderador=" + e_moderador +
+                '}';
+    }
+
     public Aluno(String nome, String usuario, String senha, int e_moderador, int pontuacao, String instituicao) {
         this.nome = nome;
         this.usuario = usuario;
